@@ -10,3 +10,11 @@ involved:
 - https://github.com/bassparadize/bassparadize
 - https://github.com/whodini/whodini-web-site
 - https://github.com/snappler-hub/puntos
+
+## No shame, just be considerate
+
+The list above is not meant to be shame list of ~~old~~ projects that contain
+credentials. But it's important to consider preventing this sort of stuff in the
+first place.
+
+Read more on committing credentials: http://www.itnews.com.au/news/aws-urges-developers-to-scrub-github-of-secret-keys-375785
