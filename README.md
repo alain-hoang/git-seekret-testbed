@@ -18,3 +18,14 @@ credentials. But it's important to consider preventing this sort of stuff in the
 first place.
 
 Read more on committing credentials: http://www.itnews.com.au/news/aws-urges-developers-to-scrub-github-of-secret-keys-375785
+
+## Using this repository
+
+In order to properly test this repository, you will need to install
+`git-seekret` with the script found in the 18F/laptop repository. At the time of
+this writing, the `seekret` branch is what you should be using to install the
+script. In the future, the `master` branch will be used.
+
+```
+BRANCH=seekret curl -s "https://raw.githubusercontent.com/18F/laptop/$BRANCH/seekrets-install" | sh -
+```
