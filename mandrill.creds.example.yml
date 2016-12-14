@@ -1,0 +1,21 @@
+---
+MANDRILL_USERNAME: dev@example.com
+MANDRILL_PASSWORD: !8ZJVAFXUoUD%N9^*RK%aM+0tv7b+W3+
+MANDRILL_API_KEY: ZJJnRPyDhC8Jx6oIb92Olw
+MANDRIL_SMTP_ENDPOINT: smtp.mandrillapp.com
+
+# Only matching this right now
+password: 1234abcACBDOPMasdjknf # 21 characters
+password:                     1234abcACBDOPMasdjknf # 21 characters
+password:1234abcACBDOPMasdjknf # 21 characters
+"password":1234abcACBDOPMasdjknf # 21 characters
+"password":     1234abcACBDOPMasdjknf # 21 characters
+address':password:1234abcACBDOPMasdjknf
+address":password:1234abcACBDOPMasdjknf
+smtp.mandrillaapp.compassword:1234abcACBDOPMasdjknf
+address":smtp.mandrillaapp.compassword:1234abcACBDOPMasdjknf
+address':smtp.mandrillaapp.compassword:1234abcACBDOPMasdjknf
+'address':smtp.mandrillaapp.compassword:1234abcACBDOPMasdjknf
+"address": smtp.mandrillapp.compassword:1234abcACBDOPMasdjknf
+"address":"smtp.mandrillaapp.com""password:1234abcACBDOPMasdjknf
+'address':'smtp.mandrillaapp.com''password:1234abcACBDOPMasdjknf
